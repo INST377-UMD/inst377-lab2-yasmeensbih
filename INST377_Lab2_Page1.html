@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en" >
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width", initial-scale="1.0">
+    <title> UMD Student Contact Form </title>
+
+    <style>
+
+        body { background-color: aqua;}
+
+
+        input[type = "submit"] {
+
+            background-color: blueviolet;
+            color:white;
+            padding: 15px 20px;
+            font-size: 1.5em;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+
+        }
+
+        input[type="submit"]:hover {
+            background-color: red;
+        }
+
+        .form-group {
+            margin: 45px 0;
+        }
+
+        label {
+            font-size: 2.2em;
+    
+        }
+
+        .form-container {
+            max-width: 450px;
+            margin: auto
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="form-container">
+        <form action = "INST377_Lab2_Page2.html" method="get">
+            <div class = "form-group">
+                <label for="name">Name:</label>
+                <input type = "text" id = "name" name = "name" placeholder = "Input Some Text Here" required>
+            </div>
+            
+            <div class = "form-group">
+                <label for = "email"> Email:</label>
+                <input type = "email" id = "email" name = "email" placeholder = "Input Some Text Here" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for= "UID" > UID: </label>
+                <input type= "number" id=" UID" UID = "UID" placeholder="Input Some Text Here" required>
+
+            </div>
+        
+           
+            <input type = "submit" value=" Submit" >
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
